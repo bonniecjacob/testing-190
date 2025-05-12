@@ -9,5 +9,5 @@
 
   <!-- include sections -->
   <xi:include href="sec-section-our-first-day.ptx" />
-
+  <xi:include href="sec-section-more-stuff.ptx" />
 </chapter>
