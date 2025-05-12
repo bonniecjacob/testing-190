@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-more-stuff" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>More stuff</title>
     
     <p>
        Just trying to create a new section! 
     </p>  
+
+    <definition xml:id="def-graph">
+      <statement>
+         <p>
+            A <term>graph</term> is a triple such that .... 
+         </p>
+      </statement>
+    </definition>
+
+    <axiom xml:id="axiom-graph">
+      <statement>
+         <p>
+            A <term>graph</term> is a triple such that .... 
+         </p>
+      </statement>
+    </axiom>
+</section>
