@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-our-first-day" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Our First Day</title>
 
   <p> Here is the beginning of our section! </p>
@@ -78,4 +78,14 @@
   </tabular>
 </p>
 
+<p>
+  Now with LaTeX...
+  <me>
+    \begin{array}{c|c|c}
+    1 \amp 2 \amp 3 \\ \hline
+    4 \amp 5 \amp 6 \\
+    \end{array}
+  </me>
+  
+</p>
 </section>
