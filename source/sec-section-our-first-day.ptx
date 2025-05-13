@@ -143,6 +143,7 @@ And now we want to refer to <xref ref="thm-big-theorem"/>, la la la.
 </image>
 <caption>Hello</caption>
 
+
 <image width="60%">
   <prefigure xmlns="https://prefigure.org"
              label="prefigure-network">
@@ -159,4 +160,8 @@ And now we want to refer to <xref ref="thm-big-theorem"/>, la la la.
   </prefigure>
   </image>
 </figure>
+
+<p>
+  OK.  
+</p>
 </section>
