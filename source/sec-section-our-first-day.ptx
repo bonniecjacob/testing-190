@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-our-first-day" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Our First Day</title>
+
+  <p> Here is the beginning of our section! </p>
+
+  <p>
+    I just created a paragraph.  Let's include some emphasized text.  
+    <em>This is emphasized text.</em> I need a quote too.  <q>Here.</q> I need a term too. A <term>term</term> is something I define. 
+  And also some math, because why not. <m> \sin(x) </m> and 
+  <me>
+    \sin^2 x + \cos^2 x = 1
+  </me>.
+</p>
+
+<p>
+  These are my favorite animals, ordered in how I thought of them.
+
+<ol>
+  <li>
+    <p>
+      koalas
+    </p>
+  </li>
+  <p>
+    who doesn't like chickens?
+  </p>
+  <li>
+    <p>
+      Chickens
+    </p>
+  </li>
+  <li>
+    <p>
+      Pigeons
+    </p>
+  </li>
+</ol>
+</p>
+<p>
+  Now I'll tell you my favorite numbers in no particular order.
+
+  <ul>
+    <li>
+      <p>
+        7
+    
+      </p>
+    </li>
+    <li>
+      <p>
+        32
+      </p>
+    </li>
+    <li>
+      <p>
+        22
+      </p>
+    </li>
+  </ul>
+</p>
+
+
+<p>
+  <alert>Hi!</alert>
+</p>
+
+<p>
+  <tabular>
+    <col right="medium" /><col right="medium" /><col />
+    <row bottom ="medium">
+      <cell>1</cell><cell>2</cell><cell>3</cell>
+    </row>
+    <row>
+      <cell>4</cell><cell>5</cell><cell>6</cell>
+    </row>
+  </tabular>
+</p>
+
+<p>
+  Now with LaTeX...
+  <me>
+    \begin{array}{c|c|c}
+    1 \amp 2 \amp 3 \\ \hline
+    4 \amp 5 \amp 6 \\
+    \end{array}
+  </me>
+  
+</p>
+</section>
