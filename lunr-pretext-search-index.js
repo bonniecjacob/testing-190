@@ -133,7 +133,7 @@ var ptx_lunr_docs = [
   "type": "Colophon",
   "number": "",
   "title": "Colophon",
-  "body": " This book was authored in PreTeXt .  "
+  "body": " This book is dedicated to my family for putting up with me going to a full week workshop. PreTeXt .  "
 }
 ]
 
