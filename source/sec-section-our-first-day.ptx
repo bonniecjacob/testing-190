@@ -89,79 +89,77 @@
   
 </p>
 
-
-  <lemma xml:id="lem-">
-    <statement>
-      <p>
-        This is an obvious lemma.  
-      </p>
-    </statement>
-  </lemma>
-<proof>
-  <p>
-    This is a proof outside the lemma.  
-  </p>
-</proof>
-
-<theorem xml:id="thm-big-theorem">
-  <title>The Big Theorem</title>
-  
-  
-  <statement>
-    <p>
-      If we work until 5 PM, we will be tired.  
-    </p>
-  </statement>
-  <proof>
-    <p>
-      5 PM in Colorado is 7 PM in Rochester.  7 PM is late in Rochester.  Therefore, we will be tired.  
-    </p>
-  </proof>
-</theorem>
-
-<p>
-And now we want to refer to <xref ref="thm-big-theorem"/>, la la la.  
-</p>
-
-<figure xml:id="">
-<image width="60%">
-  <prefigure xmlns="https://prefigure.org"
-             label="prefigure-xygraph">
-<diagram dimensions="(200,200)" margins="1">
-  <definition>g(x)=1+x^2/2</definition>
-  <definition>a = 0</definition>
-  <coordinates bbox="(-3,-3,3,3)">
-    <grid-axes xlabel="x" ylabel="y"/>
-    <graph function="g"/>
-    <tangent-line function="g" point="a"/>
-    <point p="(a,g(a))" alignment="ne">
-      <m>(a,g(a))</m>
-    </point>
-  </coordinates>
-</diagram>
-  </prefigure>
-</image>
-<caption>Hello</caption>
-
-
-<image width="60%">
-  <prefigure xmlns="https://prefigure.org"
-             label="prefigure-network">
-<diagram dimensions="(300,300)" margins="5">
-  <definition>graph={1:[3,4,5,5],2:[4,5],3:[4,5],6:[2,4]}</definition>
-  <coordinates bbox="(-1,-1,1,1)">
-    <network directed="yes" graph="graph" arrows="end"
-             scale="0.8" node-fill="#fcf" node-stroke="black"
+<figure>
+  <image width="60%">
+    <prefigure xmlns="https://prefigure.org"
+            label="prefigure-hasse">
+      <diagram dimensions="(400,400)" margins="100">
+        <coordinates bbox="(-1,-1,3,6)">
+          <network directed="no" arrows="end"
+          scale="0.8" node-fill="#fcf" node-stroke="black"
+          seed="1" labels="yes"
+          tactile-node-size="40">
+            <node at="1" p="(1,0)" edges="[2,3]"/>
+            <node at="2" p="(0,2)" edges="[4,6]"/>
+            <node at="3" p="(2,2)" edges="[6]"/>
+            <node at="4" p="(0,4)" edges="[8,12]"/>
+            <node at="6" p="(2,4)" edges="[12]"/>
+            <node at="8" p="(0,6)"/>
+            <node at="12" p="(2,6)"/>
+          </network>
+        </coordinates>
+      </diagram>
+    </prefigure>
+  </image>
+</figure>
+<figure>
+  <image width="60%">
+    <prefigure xmlns="https://prefigure.org"
+            label="prefigure-mygraph">
+      <diagram dimensions="(300,300)" margins="100">
+  <definition>graph={1:[2],2:[3]}</definition>
+  <coordinates bbox="(-2,-2,2,2)">
+    <network directed="yes" graph="graph" 
+             scale="0.5" node-fill="#fcf" node-stroke="black"
 	     seed="1" labels="yes"
 	     tactile-node-size="40">
+         <edge vertices="(3,3)" loop-scale="(0.6,0.5)">loop</edge>
     </network>
   </coordinates>
 </diagram>
-  </prefigure>
+    </prefigure>
   </image>
 </figure>
 
-<p>
-  OK.  
-</p>
+
+<figure>
+  <image width="60%">
+    <prefigure xmlns="https://prefigure.org"
+            label="prefigure-loops">
+      <diagram dimensions="(300,150)"
+         xmlns="https://prefigure.org">
+        <coordinates bbox="(-1,-1,1,2)">
+          <network directed="yes" arrows="end"
+	         node-fill="lightskyblue" node-stroke="black"
+             node-size="25" tactile-node-size="60"
+	          labels="yes">
+            <node at="0" p="(-0.5,0)" style="double-circle"
+            loop-orientation="90">
+            <m>S_0</m>
+            </node>
+            <node at="1" p="(0.5,0)" loop-orientation="90">
+            <m>S_1</m>
+            </node>
+            <edge vertices="(1,0)">0</edge>
+            <edge vertices="(0,1)">0</edge>
+            <edge vertices="(0,0)" loop-scale="(0.6,0.5)">1</edge>
+            <edge vertices="(1,1)" loop-scale="(0.6,0.5)">1</edge>
+          </network>
+        </coordinates>
+      </diagram>
+    </prefigure>
+  </image>
+  <caption>Do loops work?</caption>
+</figure>
+
 </section>
