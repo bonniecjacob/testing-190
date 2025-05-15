@@ -1,0 +1,28 @@
+<setup>
+  <selectFromSequence name="a" from="-2" to="2" exclude="0"/>
+  <selectPrimeNumbers name="b" minValue="2" maxValue="100"/>
+</setup>
+
+What number would you like to pick?  <answer><mathInput></mathInput>42</answer>
+<!-- The answer thing is just checking to see that answer is right -->
+
+
+What number would you like to pick now?  <answer><mathInput name="studentInput"></mathInput>42</answer>
+<p><m>polynomial($studentInput)=$$polynomial($studentInput)</m></p>
+
+
+
+
+<p>
+  <m>f(x)=</m><function name="f"><abs>x</abs></function>
+</p>
+
+<p>
+  <function name="polynomial">$a x^3-$b x</function>
+</p>
+
+<graph>
+ <!-- <function copySource="f" domain="(-4,4)"></function>
+  <derivative>$f</derivative> -->
+  $polynomial
+</graph>

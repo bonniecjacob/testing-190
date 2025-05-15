@@ -5,6 +5,13 @@
 
   <p> Text of section. </p>
 
+<interactive label="interactive-label" platform="doenetml" width="100%" aspect="2:8">
+  <slate surface="doenetml">
+    <xi:include parse="text" href="doenet/sometrialfile.doenetml"/> 
+  </slate>
+</interactive>
+
+
 <p> Here is my contribution. </p>
 
 </section>
