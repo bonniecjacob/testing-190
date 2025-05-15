@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-trying-more-tex" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>LaTeX converting to PreTeXt again</title>
+
+<p>
+<p>
+Hello.
+
+<mdn>
+x&amp;amp;= 3 \\
+y &amp;amp;= 2  \\
+</mdn>
+</p>
+
+<p>
+</p>
+</p>
+
+</section>

@@ -11,4 +11,6 @@
   <xi:include href="sec-section-our-first-day.ptx" />
   <xi:include href="sec-section-more-stuff.ptx" />
   <xi:include href="sec-section-name.ptx" />
+  <xi:include href="sec-section-trying-tex-to-pretext.ptx" />
+  <xi:include href="sec-section-trying-more-tex.ptx" />
 </chapter>
