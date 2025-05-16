@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-trying-tex-to-pretext" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>LaTeX converting to PreTeXt</title>
+<theorem>
+<statement>
+<p>
+The quantity <m>x + 2</m> is more than <m>y - 1</m>.
+And if you want to know, 
+<men>
+f(x) = \sin (x)
+</men>.
+</p>
+</statement>
+</theorem>
+
+<proof>
+<p>
+    Well, I said so.
+</p>
+</proof>
+
+</section>

@@ -22,4 +22,27 @@
          </p>
       </statement>
     </axiom>
+
+
+
+<subsection>
+  <title>Embedding a video.... hopefully.</title>
+  <p>
+    Here is a video of Chris Kurz discussing order of operations in ASL.  
+  </p>
+  <video xml:id="yt-list-vars" youtube="Z9CU4l3DeFY?si=qUj43UePNfZQozMw" width="60%" margins="5% 35%" preview="yt-list-variables.png" />
+
+</subsection>
+
+<subsection xml:id="subsec-">
+   <title>Embedding Desmos</title>
+   
+
+     <figure>
+    <caption>Graph of <m>ax-b</m></caption>
+    <interactive xml:id="desmos-linear" desmos="kevc4r6qko?" width="90%" aspect="2:3" />
+  </figure>
+</subsection>
+
+
 </section>

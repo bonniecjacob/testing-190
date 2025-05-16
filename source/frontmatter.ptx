@@ -7,9 +7,11 @@
   <bibinfo>
   
     <author>
-      <personname>You</personname>
-      <department>Your department</department>
-      <institution>Your institution</institution>
+      <personname>Bonnie C. Jacob</personname>
+      <department>Science and Mathematics Department</department>
+      <institution><line>National Technical Institute for the Deaf</line>
+        <line> Rochester Institute of Technology</line>
+      </institution>
     </author>
     <date>
       <today />
