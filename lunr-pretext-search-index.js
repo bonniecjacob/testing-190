@@ -61,7 +61,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "More stuff",
-  "body": " More stuff  Just trying to create a new section!    A graph is a triple such that ....      A graph is a triple such that ....     Embedding a video.... hopefully.  Here is a video of Chris Kurz discussing order of operations in ASL.     Embedding Desmos   Graph of     "
+  "body": " More stuff  Just trying to create a new section!    A graph is a triple such that ....      A graph is a triple such that ....     Embedding a video.... hopefully.  Here is a video of Chris Kurz discussing order of operations in ASL.     Embedding Desmos  Here is a Desmos thing that I really, really like. Please see what happens when you change .   Graph of     "
 },
 {
   "id": "def-graph",
@@ -82,9 +82,9 @@ var ptx_lunr_docs = [
   "body": "  A graph is a triple such that ....   "
 },
 {
-  "id": "subsec--2",
+  "id": "subsec--3",
   "level": "2",
-  "url": "sec-more-stuff.html#subsec--2",
+  "url": "sec-more-stuff.html#subsec--3",
   "type": "Figure",
   "number": "1.2.3",
   "title": "",
