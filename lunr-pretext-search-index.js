@@ -61,7 +61,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "More stuff",
-  "body": " More stuff  Just trying to create a new section!    A graph is a triple such that ....      A graph is a triple such that ....    "
+  "body": " More stuff  Just trying to create a new section!    A graph is a triple such that ....      A graph is a triple such that ....     Embedding a video.... hopefully.  Here is a video of Chris Kurz discussing order of operations in ASL.     Embedding Desmos   Graph of     "
 },
 {
   "id": "def-graph",
@@ -80,6 +80,15 @@ var ptx_lunr_docs = [
   "number": "1.2.2",
   "title": "",
   "body": "  A graph is a triple such that ....   "
+},
+{
+  "id": "subsec--2",
+  "level": "2",
+  "url": "sec-more-stuff.html#subsec--2",
+  "type": "Figure",
+  "number": "1.2.3",
+  "title": "",
+  "body": " Graph of   "
 },
 {
   "id": "sec-section-name",
@@ -133,7 +142,7 @@ var ptx_lunr_docs = [
   "type": "Colophon",
   "number": "",
   "title": "Colophon",
-  "body": " This book is dedicated to my family for putting up with me going to a full week workshop. PreTeXt .  "
+  "body": " This book is dedicated to my family for putting up with me going to a full week workshop.  "
 }
 ]
 
