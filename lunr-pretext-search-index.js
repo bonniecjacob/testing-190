@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Our First Day",
-  "body": " Our First Day  Here is the beginning of our section!  I just created a paragraph. Let's include some emphasized text. This is emphasized text. I need a quote too. Here. I need a term too. A term is something I define. And also some math, because why not. and .  These are my favorite animals, ordered in how I thought of them.   koalas   who doesn't like chickens?   Chickens    Pigeons     Now I'll tell you my favorite numbers in no particular order.   7    32    22      Hi!       1 2 3    4 5 6     Now with LaTeX...                             S_0    S_1   0  0  1  1       Do loops work?   And here is the one that didn't work:      graph={1:[3,4,5,5],2:[4,5],3:[4,5],6:[2,4]}          "
+  "body": " Our First Day  Here is the beginning of our section!  I just created a paragraph. Let's include some emphasized text. This is emphasized text. I need a quote too. Here. I need a term too. A term is something I define. And also some math, because why not. and .  These are my favorite animals, ordered in how I thought of them.   koalas   who doesn't like chickens?   Chickens    Pigeons     Now I'll tell you my favorite numbers in no particular order.   7    32    22      Hi!       1 2 3    4 5 6     Now with LaTeX...                             S_0    S_1   0  0  1  1       Do loops work?   And here is the one that didn't work:      graph={1:[3,4,5,5],2:[4,5],3:[4,5],6:[2,4]}           Venn diagrams               A  B  A\\setminus B     a Venn diagram showing   a venn diagram    "
 },
 {
   "id": "sec-our-first-day-3",
@@ -53,6 +53,15 @@ var ptx_lunr_docs = [
   "number": "1.1.3",
   "title": "",
   "body": "    graph={1:[3,4,5,5],2:[4,5],3:[4,5],6:[2,4]}         "
+},
+{
+  "id": "venn",
+  "level": "2",
+  "url": "sec-our-first-day.html#venn",
+  "type": "Figure",
+  "number": "1.1.4",
+  "title": "",
+  "body": "             A  B  A\\setminus B     a Venn diagram showing   a venn diagram  "
 },
 {
   "id": "sec-more-stuff",
